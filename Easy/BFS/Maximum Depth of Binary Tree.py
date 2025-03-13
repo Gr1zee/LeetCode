@@ -17,7 +17,7 @@ class Solution:
         lvl = 0
         while len(q)>0:
             sz = len(q)
-            for i in range(sz):
+            for _ in range(sz):
                 node = q.popleft()
                 if node.left:
                     q.append(node.left)
